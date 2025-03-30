@@ -6,7 +6,7 @@
 // Bild-Import Pfade
 export const imagePaths = {
   brand: {
-    logo: '/lovable-uploads/aa422c90-2222-446e-ad6c-19bdbb3d3531.png',
+    logo: '/src/assets/images/brand/logo light bg.png',
     // Weitere Markenbilder hier hinzufügen
   },
   customers: {
