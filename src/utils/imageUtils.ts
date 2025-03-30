@@ -6,7 +6,7 @@
 // Bild-Import Pfade
 export const imagePaths = {
   brand: {
-    logo: '/src/assets/images/brand/logo light bg.png',
+    logo: 'https://udvxxnqecndjrhldjqqy.supabase.co/storage/v1/object/public/assets//logo%20light%20bg.png',
     // Weitere Markenbilder hier hinzufügen
   },
   customers: {
