@@ -1,6 +1,7 @@
 
 import React from 'react';
 import { Button } from "@/components/ui/button";
+import { imagePaths } from '../utils/imageUtils';
 
 const Header = () => {
   return (
@@ -8,9 +9,9 @@ const Header = () => {
       <div className="container mx-auto flex justify-between items-center">
         <div className="flex items-center">
           <img 
-            src="/lovable-uploads/aa422c90-2222-446e-ad6c-19bdbb3d3531.png" 
+            src={imagePaths.brand.logo}
             alt="Mission42 Logo" 
-            className="h-10 md:h-12" 
+            className="h-10 md:h-12 logo-transition" 
           />
         </div>
         

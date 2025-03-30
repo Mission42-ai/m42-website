@@ -1,5 +1,6 @@
 
 import React from 'react';
+import { imagePaths } from '../utils/imageUtils';
 
 const SecondLogoSection = () => {
   const partnerLogos = [
@@ -23,9 +24,9 @@ const SecondLogoSection = () => {
           ))}
           <div className="h-12 w-auto flex items-center justify-center">
             <img 
-              src="/lovable-uploads/aa422c90-2222-446e-ad6c-19bdbb3d3531.png" 
+              src={imagePaths.brand.logo}
               alt="Mission42 Logo" 
-              className="h-10" 
+              className="h-10 logo-transition" 
             />
           </div>
         </div>
