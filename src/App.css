@@ -1,2 +1,15 @@
 
-/* Empty file to override the default styles */
+/* Update brand styles */
+.mission42-logo {
+  max-height: 50px;
+  width: auto;
+}
+
+/* Add smooth transition effects */
+.logo-transition {
+  transition: all 0.3s ease;
+}
+
+.logo-transition:hover {
+  transform: scale(1.05);
+}

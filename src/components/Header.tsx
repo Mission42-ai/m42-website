@@ -7,7 +7,11 @@ const Header = () => {
     <header className="w-full py-4 px-4 md:px-6 lg:px-8 fixed top-0 z-50 bg-white/95 backdrop-blur-sm border-b">
       <div className="container mx-auto flex justify-between items-center">
         <div className="flex items-center">
-          <span className="text-2xl font-bold text-brand-blue">Mission<span className="text-brand-orange">42</span></span>
+          <img 
+            src="/lovable-uploads/aa422c90-2222-446e-ad6c-19bdbb3d3531.png" 
+            alt="Mission42 Logo" 
+            className="h-10 md:h-12" 
+          />
         </div>
         
         <nav className="hidden md:flex gap-6 items-center">

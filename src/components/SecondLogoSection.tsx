@@ -7,7 +7,6 @@ const SecondLogoSection = () => {
     { name: "Technologie Partner 2" },
     { name: "Technologie Partner 3" },
     { name: "Technologie Partner 4" },
-    { name: "Technologie Partner 5" },
   ];
 
   return (
@@ -22,6 +21,13 @@ const SecondLogoSection = () => {
               <span className="text-gray-500 font-medium">{logo.name}</span>
             </div>
           ))}
+          <div className="h-12 w-auto flex items-center justify-center">
+            <img 
+              src="/lovable-uploads/aa422c90-2222-446e-ad6c-19bdbb3d3531.png" 
+              alt="Mission42 Logo" 
+              className="h-10" 
+            />
+          </div>
         </div>
       </div>
     </section>

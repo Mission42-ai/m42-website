@@ -22,6 +22,13 @@ const LogoSection = () => {
               <span className="text-gray-500 font-medium">{logo.name}</span>
             </div>
           ))}
+          <div className="h-12 w-auto flex items-center justify-center">
+            <img 
+              src="/lovable-uploads/aa422c90-2222-446e-ad6c-19bdbb3d3531.png" 
+              alt="Mission42 Logo" 
+              className="h-10" 
+            />
+          </div>
         </div>
       </div>
     </section>
