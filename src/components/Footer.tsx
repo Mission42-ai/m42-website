@@ -1,6 +1,7 @@
 
 import React from 'react';
 import { Mail, MapPin, Phone } from 'lucide-react';
+import { getImage } from '@/utils/imageUtils';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -10,7 +11,13 @@ const Footer = () => {
       <div className="container mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
           <div>
-            <h3 className="font-bold text-xl mb-4">Mission<span className="text-brand-orange">42</span></h3>
+            <div className="mb-4">
+              <img 
+                src="https://udvxxnqecndjrhldjqqy.supabase.co/storage/v1/object/public/assets//logo%20dark%20bg.png" 
+                alt="Mission42 Logo" 
+                className="h-8"
+              />
+            </div>
             <p className="text-gray-300 mb-4">
               Die Community für Unternehmen, die KI erfolgreich einsetzen wollen.
             </p>
