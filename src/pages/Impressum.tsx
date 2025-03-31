@@ -17,8 +17,7 @@ const Impressum = () => {
           10245 Berlin</p>
 
           <h2>Kontakt</h2>
-          <p>Telefon: &#91;Telefonnummer&#93;<br />
-          E-Mail: konstantin@mission42.ai</p>
+          <p>E-Mail: konstantin@mission42.ai</p>
 
           <h2>Umsatzsteuer-ID</h2>
           <p>Umsatzsteuer-Identifikationsnummer gem&auml;&szlig; &sect; 27 a Umsatzsteuergesetz:<br />
@@ -39,7 +38,6 @@ const Impressum = () => {
           <p>Unsere zentrale Kontaktstelle f&uuml;r Nutzer und Beh&ouml;rden nach Art. 11, 12 DSA erreichen Sie wie folgt:</p>
           <p>E-Mail: konstantin@mission42.ai</p>
           <p>Die für den Kontakt zur Verf&uuml;gung stehenden Sprachen sind: Deutsch, Englisch.</p>
-          <p>Quelle: <a href="https://www.e-recht24.de">eRecht24</a></p>
         </div>
       </div>
       <Footer />
