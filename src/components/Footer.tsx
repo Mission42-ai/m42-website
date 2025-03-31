@@ -64,11 +64,11 @@ const Footer = () => {
           <div>
             <h3 className="font-bold mb-4">Links</h3>
             <ul className="space-y-3">
-              <li><a href="#" className="text-gray-300 hover:text-brand-orange">Über uns</a></li>
-              <li><a href="#angebot" className="text-gray-300 hover:text-brand-orange">Unser Angebot</a></li>
-              <li><a href="#testimonials" className="text-gray-300 hover:text-brand-orange">Testimonials</a></li>
-              <li><a href="#faq" className="text-gray-300 hover:text-brand-orange">FAQ</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-brand-orange">Blog</a></li>
+              <li><Link to="/#" className="text-gray-300 hover:text-brand-orange">Über uns</Link></li>
+              <li><Link to="/#angebot" className="text-gray-300 hover:text-brand-orange">Unser Angebot</Link></li>
+              <li><Link to="/#testimonials" className="text-gray-300 hover:text-brand-orange">Testimonials</Link></li>
+              <li><Link to="/#faq" className="text-gray-300 hover:text-brand-orange">FAQ</Link></li>
+              <li><Link to="/#" className="text-gray-300 hover:text-brand-orange">Blog</Link></li>
             </ul>
           </div>
           
