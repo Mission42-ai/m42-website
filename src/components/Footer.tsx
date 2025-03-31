@@ -77,7 +77,6 @@ const Footer = () => {
               <li><Link to="/impressum" className="text-gray-300 hover:text-brand-orange">Impressum</Link></li>
               <li><Link to="/datenschutz" className="text-gray-300 hover:text-brand-orange">Datenschutz</Link></li>
               <li><Link to="/agb" className="text-gray-300 hover:text-brand-orange">AGB</Link></li>
-              <li><a href="#" className="text-gray-300 hover:text-brand-orange">Cookie-Richtlinie</a></li>
             </ul>
           </div>
         </div>
