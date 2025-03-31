@@ -97,8 +97,44 @@ export default {
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
 				'accordion-up': 'accordion-up 0.2s ease-out'
-			}
+			},
+			typography: {
+				DEFAULT: {
+					css: {
+						maxWidth: '100%',
+						color: 'inherit',
+						a: {
+							color: 'inherit',
+							textDecoration: 'underline',
+							fontWeight: '500',
+							'&:hover': {
+								color: '#FF6F48',
+							},
+						},
+						h1: {
+							color: '#002147',
+							fontWeight: '700',
+							marginTop: '2rem',
+							marginBottom: '1.5rem',
+						},
+						h2: {
+							color: '#002147',
+							fontWeight: '600',
+							marginTop: '2rem',
+							marginBottom: '1rem',
+						},
+						p: {
+							marginTop: '1.25rem',
+							marginBottom: '1.25rem',
+							lineHeight: '1.75',
+						},
+					},
+				},
+			},
 		}
 	},
-	plugins: [require("tailwindcss-animate")],
+	plugins: [
+		require("tailwindcss-animate"),
+		require('@tailwindcss/typography'),
+	],
 } satisfies Config;
