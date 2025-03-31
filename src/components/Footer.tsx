@@ -1,11 +1,18 @@
 
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import { Mail, MapPin, Phone } from 'lucide-react';
 import { getImage } from '@/utils/imageUtils';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
+  const location = useLocation();
+  const isHomePage = location.pathname === '/';
+  
+  // Function to handle creating the correct link format
+  const getFooterLink = (anchor: string) => {
+    return isHomePage ? `#${anchor}` : `/#${anchor}`;
+  };
   
   return (
     <footer className="bg-brand-blue text-white py-16 px-4">
@@ -64,11 +71,11 @@ const Footer = () => {
           <div>
             <h3 className="font-bold mb-4">Links</h3>
             <ul className="space-y-3">
-              <li><Link to="/#" className="text-gray-300 hover:text-brand-orange">Über uns</Link></li>
-              <li><Link to="/#angebot" className="text-gray-300 hover:text-brand-orange">Unser Angebot</Link></li>
-              <li><Link to="/#testimonials" className="text-gray-300 hover:text-brand-orange">Testimonials</Link></li>
-              <li><Link to="/#faq" className="text-gray-300 hover:text-brand-orange">FAQ</Link></li>
-              <li><Link to="/#" className="text-gray-300 hover:text-brand-orange">Blog</Link></li>
+              <li><a href={isHomePage ? "#" : "/#"} className="text-gray-300 hover:text-brand-orange">Über uns</a></li>
+              <li><a href={getFooterLink("angebot")} className="text-gray-300 hover:text-brand-orange">Unser Angebot</a></li>
+              <li><a href={getFooterLink("testimonials")} className="text-gray-300 hover:text-brand-orange">Testimonials</a></li>
+              <li><a href={getFooterLink("faq")} className="text-gray-300 hover:text-brand-orange">FAQ</a></li>
+              <li><a href={isHomePage ? "#" : "/#"} className="text-gray-300 hover:text-brand-orange">Blog</a></li>
             </ul>
           </div>
           
