@@ -7,6 +7,7 @@ import Letter from '@/components/Letter';
 import Offer from '@/components/Offer';
 import Impact from '@/components/Impact';
 import TextWithImage from '@/components/TextWithImage';
+import Framework from '@/components/Framework';
 import Testimonials from '@/components/Testimonials';
 import ProductPresentation from '@/components/ProductPresentation';
 import Guarantee from '@/components/Guarantee';
@@ -23,6 +24,7 @@ const Index = () => {
       <LogoSection />
       <Letter />
       <Offer />
+      <Framework />
       <Impact />
       <TextWithImage />
       <Testimonials />
