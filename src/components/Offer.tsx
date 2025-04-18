@@ -4,24 +4,24 @@ import { Check } from "lucide-react";
 const Offer = () => {
   const benefits = [
     {
-      title: "Execute – Sofortige Resultate",
+      title: "Execute – Productivity Labs",
       description:
-        "Nutze unsere Productivity Labs, um gemeinsam mit unseren Experten direkte und messbare Erfolge zu realisieren.",
+        "Wöchentliche, moderierte Deep-Work-Sprints, in denen du konkrete KI-Lösungen für dein Unternehmen entwickelst – mit sofort messbaren Ergebnissen. Keine Theorie, sondern echte Umsetzung mit Expert:innen an deiner Seite.",
     },
     {
-      title: "Enable – Eigene KI-Champions",
+      title: "Enable – Bilde deine KI-Champions aus",
       description:
-        "Bilde deine Mitarbeiter zu KI-Champions aus, die als interne Multiplikatoren deinen nachhaltigen Erfolg sicherstellen.",
+        "Entwickle deine internen Multiplikatoren: Von No-Code Agent-Entwicklung bis zur EU-AI-Act-Konformität. Mit unserer Learning-Tracks und regelmäßigen Coach-Check-ins bauen wir gemeinsam deine internen KI-Experten auf.",
     },
     {
       title: "Align – Nachhaltige Strategie",
       description:
-        "Verankere mit deinem persönlichen Coach euer strategisches Vorgehen und stelle so euren langfristigen ROI sicher.",
+        "Verankere mit deinem persönlichen Coach euer strategisches Vorgehen und stelle so euren langfristigen ROI sicher. Wir begleiten dich von der Vision bis zur vollständigen Integration in deine Unternehmensprozesse.",
     },
     {
       title: "Amplify – Starkes Netzwerk",
       description:
-        "Nutze das exklusive Mission42-Netzwerk für Austausch, Vorlagen und praktische Unterstützung rund um die Uhr.",
+        "Nutze das exklusive Mission42-Netzwerk für Austausch, Vorlagen und praktische Unterstützung rund um die Uhr. Lerne von anderen Unternehmer:innen, die denselben Weg gehen, und beschleunige deinen Erfolg.",
     },
   ];
 
@@ -43,9 +43,9 @@ const Offer = () => {
 
         <div className="max-w-4xl mx-auto">
           <p className="text-xl text-center text-gray-700 mb-12">
-            Das Wachstumsprogramm für Unternehmen, die es mit KI ernst meinen
-            und nachhaltig ihre Profitabilität steigern wollen (und das in
-            Monaten, nicht Jahren).
+            Das Transformationsprogramm für Unternehmen, die es mit KI ernst
+            meinen und nachhaltig ihre Profitabilität steigern wollen (und das
+            in Monaten, nicht Jahren).
           </p>
 
           <div className="grid md:grid-cols-2 gap-8">
