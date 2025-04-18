@@ -1,4 +1,3 @@
-
 import React from "react";
 import { Check } from "lucide-react";
 
@@ -6,20 +5,24 @@ const Offer = () => {
   const benefits = [
     {
       title: "Execute – Sofortige Resultate",
-      description: "Nutze unsere Productivity Labs, um gemeinsam mit unseren Experten direkte und messbare Erfolge zu realisieren."
+      description:
+        "Nutze unsere Productivity Labs, um gemeinsam mit unseren Experten direkte und messbare Erfolge zu realisieren.",
     },
     {
       title: "Enable – Eigene KI-Champions",
-      description: "Bilde deine Mitarbeiter zu KI-Champions aus, die als interne Multiplikatoren deinen nachhaltigen Erfolg sicherstellen."
+      description:
+        "Bilde deine Mitarbeiter zu KI-Champions aus, die als interne Multiplikatoren deinen nachhaltigen Erfolg sicherstellen.",
     },
     {
       title: "Align – Nachhaltige Strategie",
-      description: "Verankere mit deinem persönlichen Coach euer strategisches Vorgehen und stelle so euren langfristigen ROI sicher."
+      description:
+        "Verankere mit deinem persönlichen Coach euer strategisches Vorgehen und stelle so euren langfristigen ROI sicher.",
     },
     {
       title: "Amplify – Starkes Netzwerk",
-      description: "Nutze das exklusive Mission42-Netzwerk für Austausch, Vorlagen und praktische Unterstützung rund um die Uhr."
-    }
+      description:
+        "Nutze das exklusive Mission42-Netzwerk für Austausch, Vorlagen und praktische Unterstützung rund um die Uhr.",
+    },
   ];
 
   return (
@@ -47,7 +50,10 @@ const Offer = () => {
 
           <div className="grid md:grid-cols-2 gap-8">
             {benefits.map((benefit, index) => (
-              <div key={index} className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow">
+              <div
+                key={index}
+                className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow"
+              >
                 <div className="flex items-start gap-4">
                   <div className="mt-1">
                     <Check className="h-5 w-5 text-brand-orange" />
@@ -56,9 +62,7 @@ const Offer = () => {
                     <h3 className="font-semibold text-lg text-brand-blue mb-2">
                       {benefit.title}
                     </h3>
-                    <p className="text-gray-600">
-                      {benefit.description}
-                    </p>
+                    <p className="text-gray-600">{benefit.description}</p>
                   </div>
                 </div>
               </div>
