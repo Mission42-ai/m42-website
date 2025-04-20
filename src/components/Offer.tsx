@@ -1,3 +1,4 @@
+
 import React from "react";
 import { Check, Target, Lightbulb, Compass, Megaphone } from "lucide-react";
 
@@ -32,21 +33,22 @@ const Offer = () => {
   return (
     <section
       id="angebot"
-      className="py-20 px-4 bg-gradient-to-b from-white to-gray-50"
+      className="py-24 bg-brand-blue text-white relative overflow-hidden"
     >
-      <div className="container mx-auto">
-        <div className="text-center mb-12">
+      <div className="absolute inset-0 bg-gradient-to-b from-brand-blue/50 to-[#001A39] mix-blend-overlay"></div>
+      <div className="container mx-auto px-4 relative z-10">
+        <div className="text-center mb-16">
           <p className="text-brand-orange uppercase font-semibold tracking-wider mb-3">
             Unser Erfolgsrezept
           </p>
-          <h2 className="text-3xl md:text-4xl font-bold text-brand-blue">
+          <h2 className="text-4xl md:text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-300">
             Das Mission42 Framework
           </h2>
-          <div className="h-1 w-20 bg-brand-orange mx-auto mt-6"></div>
+          <div className="h-1 w-24 bg-brand-orange mx-auto mt-6"></div>
         </div>
 
         <div className="max-w-4xl mx-auto">
-          <p className="text-xl text-center text-gray-700 mb-12">
+          <p className="text-xl text-center text-gray-200 mb-16">
             KI-Transformation ist eine strategische Reise, kein IT-Projekt.
             Einfach nur Tools einzuführen, reicht nicht aus. Für nachhaltigen
             Erfolg braucht es einen klaren Plan, die richtigen internen
@@ -59,21 +61,23 @@ const Offer = () => {
             {benefits.map((benefit, index) => (
               <div
                 key={index}
-                className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow"
+                className="bg-white/5 p-8 rounded-xl border border-white/10 backdrop-blur-sm hover:bg-white/10 transition-all duration-300"
               >
                 <div className="flex flex-col items-center">
-                  <div className="mb-4">
-                    <div className="bg-gray-50 p-4 rounded-full">
+                  <div className="mb-6">
+                    <div className="bg-white/10 p-4 rounded-full">
                       {React.cloneElement(benefit.icon as React.ReactElement, {
                         className: "h-8 w-8 text-brand-orange",
                       })}
                     </div>
                   </div>
                   <div className="text-center">
-                    <h3 className="font-semibold text-lg text-brand-blue mb-2">
+                    <h3 className="font-semibold text-xl text-white mb-4">
                       {benefit.title}
                     </h3>
-                    <p className="text-gray-600">{benefit.description}</p>
+                    <p className="text-gray-300 leading-relaxed">
+                      {benefit.description}
+                    </p>
                   </div>
                 </div>
               </div>
