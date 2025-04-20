@@ -1,4 +1,3 @@
-
 import React from "react";
 
 const LogoSection = () => {
@@ -13,14 +12,14 @@ const LogoSection = () => {
   return (
     <section className="py-12 bg-brand-blue">
       <div className="container mx-auto">
-        <div className="flex flex-wrap justify-center items-center gap-8 md:gap-16">
+        <div className="flex flex-wrap justify-center items-center gap-4 md:gap-8">
           {logos.map((logo, index) => (
             <div
               key={index}
-              className="h-20 w-48 flex items-center justify-center bg-white/10 rounded-lg p-6"
+              className="h-20 w-48 flex items-center justify-center p-6"
             >
-              <img 
-                src={logo.path} 
+              <img
+                src={logo.path}
                 alt={`${logo.name} Logo`}
                 className="max-h-full max-w-full object-contain"
               />
