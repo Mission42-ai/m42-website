@@ -1,7 +1,7 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Mail, MapPin, Phone } from "lucide-react";
-import { getImage } from "@/utils/imageUtils";
+import { getImage, imagePaths } from "@/utils/imageUtils";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
