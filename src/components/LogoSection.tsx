@@ -22,13 +22,6 @@ const LogoSection = () => {
               <span className="text-gray-500 font-medium">{logo.name}</span>
             </div>
           ))}
-          <div className="h-12 w-auto flex items-center justify-center">
-            <img
-              src={imagePaths.brand.logo}
-              alt="Mission42 Logo"
-              className="h-10 logo-transition"
-            />
-          </div>
         </div>
       </div>
     </section>
