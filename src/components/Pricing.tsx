@@ -91,15 +91,17 @@ const Pricing = () => {
                 </ul>
               </div>
               <div className="mt-8">
-                <Button
-                  className={`w-full ${
-                    pkg.isHighlighted
-                      ? "bg-brand-orange hover:bg-brand-orange/90"
-                      : "bg-brand-blue hover:bg-brand-blue/90"
-                  }`}
-                >
-                  Jetzt Beratungsgespräch vereinbaren
-                </Button>
+                <a href="https://calendar.app.google/gzKyuKMMiJdvN1fz9" target="_blank" rel="noopener noreferrer" className="w-full">
+                  <Button
+                    className={`w-full ${
+                      pkg.isHighlighted
+                        ? "bg-brand-orange hover:bg-brand-orange/90"
+                        : "bg-brand-blue hover:bg-brand-blue/90"
+                    }`}
+                  >
+                    Jetzt Beratungsgespräch vereinbaren
+                  </Button>
+                </a>
               </div>
             </div>
           ))}
