@@ -1,4 +1,3 @@
-
 /**
  * Hilfsfunktionen für den Umgang mit Bildern
  */
@@ -6,9 +5,9 @@
 // Bild-Import Pfade
 export const imagePaths = {
   brand: {
-    logo: '/logos/mission42-logo.png',
-    footerLogo: '/logos/mission42-logo.png',
-    favicon: '/favicon.ico',
+    logo: "/logos/logo-light-bg.png",
+    footerLogo: "/logos/logo-dark-bg.png",
+    favicon: "/favicon.ico",
     // Weitere Markenbilder hier hinzufügen
   },
   customers: {
@@ -19,18 +18,21 @@ export const imagePaths = {
   },
   products: {
     // Hier Produktbildpfade hinzufügen, wenn vorhanden
-  }
+  },
 };
 
 /**
  * Holt ein Bild basierend auf der Kategorie und dem Namen
  */
-export const getImage = (category: keyof typeof imagePaths, name: string): string => {
+export const getImage = (
+  category: keyof typeof imagePaths,
+  name: string,
+): string => {
   const categoryImages = imagePaths[category];
   if (!categoryImages || !(name in categoryImages)) {
     console.warn(`Bild nicht gefunden: ${category}/${name}`);
-    return '';
+    return "";
   }
-  
+
   return categoryImages[name as keyof typeof categoryImages];
 };
