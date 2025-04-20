@@ -100,3 +100,30 @@
     @apply bg-background text-foreground font-poppins;
   }
 }
+
+@layer components {
+  .section-transition {
+    @apply relative;
+  }
+  
+  .section-transition::after {
+    @apply absolute bottom-0 left-0 right-0 h-16 bg-gradient-to-b from-transparent pointer-events-none;
+    content: '';
+  }
+
+  .section-transition.to-gray::after {
+    @apply from-white to-gray-50;
+  }
+
+  .section-transition.to-white::after {
+    @apply from-gray-50 to-white;
+  }
+
+  .section-transition.to-blue::after {
+    @apply from-white to-brand-blue;
+  }
+
+  .section-blue-gradient {
+    @apply bg-gradient-to-b from-brand-blue to-[#001A39];
+  }
+}
