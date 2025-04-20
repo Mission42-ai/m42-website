@@ -8,7 +8,7 @@ const Framework = () => {
       id: "execute",
       title: "Execute",
       subtitle: "Schnelle, messbare Erfolge",
-      description: "Konkrete Produktivitätsgewinne durch fokussierte \"Doing\"-Sessions.",
+      description: "Konkret durch fokussierte \"Deep Work\"-Sessions.",
       stats: [
         "Eine UK-Studie mit ca. 10.000 KMUs zeigt: KI-\"Quick Wins\" steigern die Produktivität um 27-133% in den ersten Monaten",
         "Accenture belegt: Unternehmen mit vollständig KI-geführten Prozessen erreichen eine 2,4-fach höhere Produktivität als ihre Wettbewerber",
@@ -52,7 +52,7 @@ const Framework = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            KI Impact – Der entscheidende Wettbewerbsvorteil
+            Das Mission42-Framework
           </h2>
           <div className="h-1 w-20 bg-brand-orange mx-auto mt-4 mb-8"></div>
           <p className="text-lg md:text-xl max-w-4xl mx-auto mb-8 text-gray-200">

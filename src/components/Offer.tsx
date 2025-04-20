@@ -4,24 +4,24 @@ import { Check } from "lucide-react";
 const Offer = () => {
   const benefits = [
     {
-      title: "Execute – Productivity Labs",
+      title: "Durchbrüche durch fokussierte Umsetzung",
       description:
-        "Wöchentliche, moderierte Deep-Work-Sprints, in denen du konkrete KI-Lösungen für dein Unternehmen entwickelst – mit sofort messbaren Ergebnissen. Keine Theorie, sondern echte Umsetzung mit Expert:innen an deiner Seite.",
+        'Echter Fortschritt entsteht im Tun. Statt endloser Planung setzen wir auf die Kraft konzentrierter Arbeitsphasen ("Deep Work"). In kurzer Zeit konkrete, messbare Ergebnisse zu erzielen, schafft nicht nur sofortigen Nutzen, sondern erzeugt entscheidendes Momentum und überwindet die natürliche Trägheit in Organisationen.',
     },
     {
-      title: "Enable – Bilde deine KI-Champions aus",
+      title: "Nachhaltige Transformation durch interne Multiplikatoren",
       description:
-        "Entwickle deine internen Multiplikatoren: Von No-Code Agent-Entwicklung bis zur EU-AI-Act-Konformität. Mit unserer Learning-Tracks und regelmäßigen Coach-Check-ins bauen wir gemeinsam deine internen KI-Experten auf.",
+        "Wahre Transformation kommt von innen. Langfristiger Erfolg mit KI hängt davon ab, das eigene Team zu befähigen. Der Aufbau interner Wissensmultiplikatoren, die sowohl das Geschäft als auch die KI-Werkzeuge verstehen, ist der Schlüssel zur Skalierung, zur Unabhängigkeit und zur Entwicklung einer lernenden Organisation.",
     },
     {
-      title: "Align – Nachhaltige Strategie",
+      title: "Wirkung durch strategische Ausrichtung",
       description:
-        "Verankere mit deinem persönlichen Coach euer strategisches Vorgehen und stelle so euren langfristigen ROI sicher. Wir begleiten dich von der Vision bis zur vollständigen Integration in deine Unternehmensprozesse.",
+        "Technologie muss der Strategie folgen, nicht umgekehrt. Nur wenn KI-Initiativen klar auf die Unternehmensziele einzahlen, Führungskräfte den Wandel vorleben und Prozesse angepasst werden, entfaltet KI ihr volles Potenzial. Aktives Change Management und klare Verantwortlichkeiten sind unerlässlich, um alle an Bord zu holen und Reibungsverluste zu minimieren.",
     },
     {
-      title: "Amplify – Starkes Netzwerk",
+      title: "Beschleunigung durch kollektive Intelligenz",
       description:
-        "Nutze das exklusive Mission42-Netzwerk für Austausch, Vorlagen und praktische Unterstützung rund um die Uhr. Lerne von anderen Unternehmer:innen, die denselben Weg gehen, und beschleunige deinen Erfolg.",
+        "Niemand muss das Rad neu erfinden. Lernen und Wachstum beschleunigen sich exponentiell, wenn Erfahrungen, bewährte Lösungen und Herausforderungen in einem vertrauensvollen Netzwerk geteilt werden. Der Zugang zu kollektiver Intelligenz und Peer-Support steigert den Erfolg jedes Einzelnen und der gesamten Organisation.",
     },
   ];
 
@@ -33,19 +33,22 @@ const Offer = () => {
       <div className="container mx-auto">
         <div className="text-center mb-12">
           <p className="text-brand-orange uppercase font-semibold tracking-wider mb-3">
-            Unser Angebot für dich
+            Unser Erfolgsrezept
           </p>
           <h2 className="text-3xl md:text-4xl font-bold text-brand-blue">
-            Der AI-Productivity-Accelerator
+            Das Mission42 Framework
           </h2>
           <div className="h-1 w-20 bg-brand-orange mx-auto mt-6"></div>
         </div>
 
         <div className="max-w-4xl mx-auto">
           <p className="text-xl text-center text-gray-700 mb-12">
-            Das Transformationsprogramm für Unternehmen, die es mit KI ernst
-            meinen und nachhaltig ihre Profitabilität steigern wollen (und das
-            in Monaten, nicht Jahren).
+            KI-Transformation ist eine strategische Reise, kein IT-Projekt.
+            Einfach nur Tools einzuführen, reicht nicht aus. Für nachhaltigen
+            Erfolg braucht es einen klaren Plan, die richtigen internen
+            Fähigkeiten und eine Kultur, die den Wandel aktiv gestaltet. Deshalb
+            basiert unser Ansatz auf vier universellen Erfolgsprinzipien, die
+            sicherstellen, dass dein Unternehmen dauerhaft von KI profitiert:
           </p>
 
           <div className="grid md:grid-cols-2 gap-8">

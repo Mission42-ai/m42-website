@@ -1,20 +1,19 @@
-
-import React from 'react';
-import Header from '@/components/Header';
-import Hero from '@/components/Hero';
-import LogoSection from '@/components/LogoSection';
-import Letter from '@/components/Letter';
-import Offer from '@/components/Offer';
-import Impact from '@/components/Impact';
-import TextWithImage from '@/components/TextWithImage';
-import Framework from '@/components/Framework';
-import Testimonials from '@/components/Testimonials';
-import ProductPresentation from '@/components/ProductPresentation';
-import Guarantee from '@/components/Guarantee';
-import SecondLogoSection from '@/components/SecondLogoSection';
-import FAQ from '@/components/FAQ';
-import CallToAction from '@/components/CallToAction';
-import Footer from '@/components/Footer';
+import React from "react";
+import Header from "@/components/Header";
+import Hero from "@/components/Hero";
+import LogoSection from "@/components/LogoSection";
+import Letter from "@/components/Letter";
+import Offer from "@/components/Offer";
+import Impact from "@/components/Impact";
+import TextWithImage from "@/components/TextWithImage";
+import Framework from "@/components/Framework";
+import Testimonials from "@/components/Testimonials";
+import ProductPresentation from "@/components/ProductPresentation";
+import Guarantee from "@/components/Guarantee";
+import SecondLogoSection from "@/components/SecondLogoSection";
+import FAQ from "@/components/FAQ";
+import CallToAction from "@/components/CallToAction";
+import Footer from "@/components/Footer";
 
 const Index = () => {
   return (
@@ -24,7 +23,6 @@ const Index = () => {
       <LogoSection />
       <Letter />
       <Offer />
-      <Framework />
       <Impact />
       <TextWithImage />
       <Testimonials />
