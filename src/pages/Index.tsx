@@ -14,6 +14,7 @@ import SecondLogoSection from "@/components/SecondLogoSection";
 import FAQ from "@/components/FAQ";
 import CallToAction from "@/components/CallToAction";
 import Footer from "@/components/Footer";
+import Pricing from "@/components/Pricing"; // Added import for Pricing component
 
 const Index = () => {
   return (
@@ -25,6 +26,7 @@ const Index = () => {
       <Offer />
       <Testimonials />
       <ProductPresentation />
+      <Pricing /> {/* Added Pricing component */}
       <Guarantee />
       <SecondLogoSection />
       <FAQ />
