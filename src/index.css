@@ -100,39 +100,3 @@
     @apply bg-background text-foreground font-poppins;
   }
 }
-
-@layer components {
-  .section-transition {
-    position: relative;
-  }
-  
-  .section-transition::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 4rem;
-    background-image: linear-gradient(to bottom, transparent, var(--tw-gradient-to));
-    pointer-events: none;
-  }
-
-  .section-transition.to-gray::after {
-    --tw-gradient-from: #ffffff;
-    --tw-gradient-to: #f9fafb;
-  }
-
-  .section-transition.to-white::after {
-    --tw-gradient-from: #f9fafb;
-    --tw-gradient-to: #ffffff;
-  }
-
-  .section-transition.to-blue::after {
-    --tw-gradient-from: #ffffff;
-    --tw-gradient-to: #002147;
-  }
-
-  .section-blue-gradient {
-    background-image: linear-gradient(to bottom, #002147, #001A39);
-  }
-}
