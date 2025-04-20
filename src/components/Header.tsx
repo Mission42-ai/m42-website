@@ -20,7 +20,7 @@ const Header = () => {
             <img
               src={imagePaths.brand.logo}
               alt="Mission42 Logo"
-              className="h-10 md:h-12 logo-transition"
+              className="h-10 md:h-12 logo-transition mb-4"
             />
           </Link>
         </div>
