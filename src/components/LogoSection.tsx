@@ -11,13 +11,13 @@ const LogoSection = () => {
   ];
 
   return (
-    <section className="py-12 bg-gray-50">
+    <section className="py-12 bg-brand-blue">
       <div className="container mx-auto">
         <div className="flex flex-wrap justify-center items-center gap-8 md:gap-16">
           {logos.map((logo, index) => (
             <div
               key={index}
-              className="h-12 w-32 flex items-center justify-center"
+              className="h-12 w-32 flex items-center justify-center bg-white/10 rounded-lg p-4"
             >
               <img 
                 src={logo.path} 
