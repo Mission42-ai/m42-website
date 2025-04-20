@@ -1,0 +1,35 @@
+The above error occurred in the <Footer> component:
+
+    at Footer (https://ba83b113-800b-4ecb-be8f-f7e4f48f3e58-00-b8xsconxzd13.picard.replit.dev/src/components/Footer.tsx:17:22)
+    at div
+    at Index
+    at RenderedRoute (https://ba83b113-800b-4ecb-be8f-f7e4f48f3e58-00-b8xsconxzd13.picard.replit.dev/node_modules/.vite/deps/react-router-dom.js?v=7eab94a3:4069:5)
+    at Routes (https://ba83b113-800b-4ecb-be8f-f7e4f48f3e58-00-b8xsconxzd13.picard.replit.dev/node_modules/.vite/deps/react-router-dom.js?v=7eab94a3:4508:5)
+    at Router (https://ba83b113-800b-4ecb-be8f-f7e4f48f3e58-00-b8xsconxzd13.picard.replit.dev/node_modules/.vite/deps/react-router-dom.js?v=7eab94a3:4451:15)
+    at BrowserRouter (https://ba83b113-800b-4ecb-be8f-f7e4f48f3e58-00-b8xsconxzd13.picard.replit.dev/node_modules/.vite/deps/react-router-dom.js?v=7eab94a3:5196:5)
+    at Provider (https://ba83b113-800b-4ecb-be8f-f7e4f48f3e58-00-b8xsconxzd13.picard.replit.dev/node_modules/.vite/deps/chunk-MWMKJ3CZ.js?v=7eab94a3:29:15)
+    at TooltipProvider (https://ba83b113-800b-4ecb-be8f-f7e4f48f3e58-00-b8xsconxzd13.picard.replit.dev/node_modules/.vite/deps/@radix-ui_react-tooltip.js?v=7eab94a3:2286:5)
+    at QueryClientProvider (https://ba83b113-800b-4ecb-be8f-f7e4f48f3e58-00-b8xsconxzd13.picard.replit.dev/node_modules/.vite/deps/@tanstack_react-query.js?v=7eab94a3:2794:3)
+    at App
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
+
+at Footer (https://ba83b113-800b-4ecb-be8f-f7e4f48f3e58-00-b8xsconxzd13.picard.replit.dev/src/components/Footer.tsx:17:22)
+at div
+at Index
+at RenderedRoute (https://ba83b113-800b-4ecb-be8f-f7e4f48f3e58-00-b8xsconxzd13.picard.replit.dev/node_modules/.vite/deps/react-router-dom.js?v=7eab94a3:4069:5)
+at Routes (https://ba83b113-800b-4ecb-be8f-f7e4f48f3e58-00-b8xsconxzd13.picard.replit.dev/node_modules/.vite/deps/react-router-dom.js?v=7eab94a3:4508:5)
+at Router (https://ba83b113-800b-4ecb-be8f-f7e4f48f3e58-00-b8xsconxzd13.picard.replit.dev/node_modules/.vite/deps/react-router-dom.js?v=7eab94a3:4451:15)
+at BrowserRouter (https://ba83b113-800b-4ecb-be8f-f7e4f48f3e58-00-b8xsconxzd13.picard.replit.dev/node_modules/.vite/deps/react-router-dom.js?v=7eab94a3:5196:5)
+at Provider (https://ba83b113-800b-4ecb-be8f-f7e4f48f3e58-00-b8xsconxzd13.picard.replit.dev/node_modules/.vite/deps/chunk-MWMKJ3CZ.js?v=7eab94a3:29:15)
+at TooltipProvider (https://ba83b113-800b-4ecb-be8f-f7e4f48f3e58-00-b8xsconxzd13.picard.replit.dev/node_modules/.vite/deps/@radix-ui_react-tooltip.js?v=7eab94a3:2286:5)
+at QueryClientProvider (https://ba83b113-800b-4ecb-be8f-f7e4f48f3e58-00-b8xsconxzd13.picard.replit.dev/node_modules/.vite/deps/@tanstack_react-query.js?v=7eab94a3:2794:3)
+at App
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
+at t.value (https://ba83b113-800b-4ecb-be8f-f7e4f48f3e58-00-b8xsconxzd13.picard.replit.dev/__replco/static/devtools/eruda/3.2.3/eruda.js:2:17465)
+at new t (https://ba83b113-800b-4ecb-be8f-f7e4f48f3e58-00-b8xsconxzd13.picard.replit.dev/__replco/static/devtools/eruda/3.2.3/eruda.js:2:12630)
+at t.value (https://ba83b113-800b-4ecb-be8f-f7e4f48f3e58-00-b8xsconxzd13.picard.replit.dev/__replco/static/devtools/eruda/3.2.3/eruda.js:2:32766)
+at https://ba83b113-800b-4ecb-be8f-f7e4f48f3e58-00-b8xsconxzd13.picard.replit.dev/__replco/static/devtools/eruda/3.2.3/eruda.js:2:34400
