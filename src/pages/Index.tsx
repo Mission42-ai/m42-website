@@ -25,8 +25,7 @@ const Index = () => {
       <Letter />
       <Offer />
       <Testimonials />
-      <ProductPresentation />
-      <Pricing /> {/* Added Pricing component */}
+      <Pricing />
       <Guarantee />
       <SecondLogoSection />
       <FAQ />
