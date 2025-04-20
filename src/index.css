@@ -103,27 +103,36 @@
 
 @layer components {
   .section-transition {
-    @apply relative;
+    position: relative;
   }
   
   .section-transition::after {
-    @apply absolute bottom-0 left-0 right-0 h-16 bg-gradient-to-b from-transparent pointer-events-none;
     content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 4rem;
+    background-image: linear-gradient(to bottom, transparent, var(--tw-gradient-to));
+    pointer-events: none;
   }
 
   .section-transition.to-gray::after {
-    @apply from-white to-gray-50;
+    --tw-gradient-from: #ffffff;
+    --tw-gradient-to: #f9fafb;
   }
 
   .section-transition.to-white::after {
-    @apply from-gray-50 to-white;
+    --tw-gradient-from: #f9fafb;
+    --tw-gradient-to: #ffffff;
   }
 
   .section-transition.to-blue::after {
-    @apply from-white to-brand-blue;
+    --tw-gradient-from: #ffffff;
+    --tw-gradient-to: #002147;
   }
 
   .section-blue-gradient {
-    @apply bg-gradient-to-b from-brand-blue to-[#001A39];
+    background-image: linear-gradient(to bottom, #002147, #001A39);
   }
 }
