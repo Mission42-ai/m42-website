@@ -1,13 +1,13 @@
+
 import React from "react";
-import { imagePaths } from "../utils/imageUtils";
 
 const LogoSection = () => {
   const logos = [
-    { name: "Partner 1" },
-    { name: "Partner 2" },
-    { name: "Partner 3" },
-    { name: "Partner 4" },
-    { name: "Partner 5" },
+    { name: "SMB Academy", path: "/customer-logos/SMB-Academy-Logo.png" },
+    { name: "dotlux", path: "/customer-logos/dotlux-logo.png" },
+    { name: "Fork", path: "/customer-logos/fork-logo.webp" },
+    { name: "KIO Rocks", path: "/customer-logos/kio-rocks-logo.svg" },
+    { name: "Robos Labels", path: "/customer-logos/robos-labels-logo.png" },
   ];
 
   return (
@@ -17,9 +17,13 @@ const LogoSection = () => {
           {logos.map((logo, index) => (
             <div
               key={index}
-              className="h-12 w-32 bg-gray-200 rounded flex items-center justify-center"
+              className="h-12 w-32 flex items-center justify-center"
             >
-              <span className="text-gray-500 font-medium">{logo.name}</span>
+              <img 
+                src={logo.path} 
+                alt={`${logo.name} Logo`}
+                className="max-h-full max-w-full object-contain"
+              />
             </div>
           ))}
         </div>
