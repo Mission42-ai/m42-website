@@ -15,7 +15,7 @@ const Header = () => {
   return (
     <header className="w-full py-4 px-4 md:px-6 lg:px-8 fixed top-0 z-50 bg-white/95 backdrop-blur-sm border-b">
       <div className="container mx-auto flex justify-between items-center">
-        <div className="flex items-center">
+        <div className="flex items-center md:flex-none w-full md:w-auto justify-center md:justify-start">
           <Link to="/">
             <img
               src={imagePaths.brand.logo}
