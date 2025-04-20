@@ -18,20 +18,44 @@ import Pricing from "@/components/Pricing"; // Added import for Pricing componen
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen">
       <Header />
-      <Hero />
-      <LogoSection />
-      <Letter />
-      <Offer />
-      <Testimonials />
-      <ProductPresentation />
-      <Pricing /> {/* Added Pricing component */}
-      <Guarantee />
-      <SecondLogoSection />
-      <FAQ />
-      <CallToAction />
-      <Footer />
+      <div className="bg-white">
+        <Hero />
+      </div>
+      <div className="bg-gray-50">
+        <LogoSection />
+      </div>
+      <div className="bg-white">
+        <Letter />
+      </div>
+      <div className="bg-gray-50">
+        <Offer />
+      </div>
+      <div className="bg-brand-blue text-white">
+        <Testimonials />
+      </div>
+      <div className="bg-white">
+        <ProductPresentation />
+      </div>
+      <div className="bg-gray-50">
+        <Pricing />
+      </div>
+      <div className="bg-brand-blue text-white">
+        <Guarantee />
+      </div>
+      <div className="bg-white">
+        <SecondLogoSection />
+      </div>
+      <div className="bg-gray-50">
+        <FAQ />
+      </div>
+      <div className="bg-brand-blue text-white">
+        <CallToAction />
+      </div>
+      <div className="bg-gray-800 text-white">
+        <Footer />
+      </div>
     </div>
   );
 };

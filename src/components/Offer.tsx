@@ -32,7 +32,7 @@ const Offer = () => {
   return (
     <section
       id="angebot"
-      className="py-20 px-4 bg-gradient-to-b from-white to-gray-50"
+      className="py-20 px-4"
     >
       <div className="container mx-auto">
         <div className="text-center mb-12">

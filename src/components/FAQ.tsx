@@ -32,7 +32,7 @@ const FAQ = () => {
   ];
 
   return (
-    <section id="faq" className="py-20 px-4 bg-gray-50">
+    <section id="faq" className="py-20 px-4">
       <div className="container mx-auto max-w-3xl">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-brand-blue mb-6">Du hast Fragen, <br />wir haben Antworten</h2>
