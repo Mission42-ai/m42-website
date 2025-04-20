@@ -6,8 +6,8 @@
 // Bild-Import Pfade
 export const imagePaths = {
   brand: {
-    logo: 'https://udvxxnqecndjrhldjqqy.supabase.co/storage/v1/object/public/assets//logo%20light%20bg.png',
-    footerLogo: 'https://udvxxnqecndjrhldjqqy.supabase.co/storage/v1/object/public/assets//logo%20dark%20bg.png',
+    logo: 'https://udvxxnqecndjrhldjqqy.supabase.co/storage/v1/object/public/assets/mission42-logo.png',
+    footerLogo: 'https://udvxxnqecndjrhldjqqy.supabase.co/storage/v1/object/public/assets/mission42-logo.png',
     favicon: 'https://udvxxnqecndjrhldjqqy.supabase.co/storage/v1/object/public/assets//favicon%20.ico',
     // Weitere Markenbilder hier hinzufügen
   },
