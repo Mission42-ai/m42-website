@@ -25,7 +25,7 @@ const Header = () => {
           </Link>
         </div>
 
-        <Button className="bg-brand-orange hover:bg-brand-blue text-white shadow-sm transition-all">
+        <Button className="hidden md:flex bg-brand-orange hover:bg-brand-blue text-white shadow-sm transition-all">
           Jetzt Beratungsgespräch vereinbaren
         </Button>
       </div>
