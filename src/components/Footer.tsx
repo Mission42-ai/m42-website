@@ -69,13 +69,12 @@ const Footer = () => {
           </div>
           
           <div>
-            <h3 className="font-bold mb-4">Links</h3>
+            <h3 className="font-bold mb-4">Navigation</h3>
             <ul className="space-y-3">
-              <li><a href={isHomePage ? "#" : "/#"} className="text-gray-300 hover:text-brand-orange" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>Über uns</a></li>
-              <li><a href={getFooterLink("angebot")} className="text-gray-300 hover:text-brand-orange" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>Unser Angebot</a></li>
-              <li><a href={getFooterLink("testimonials")} className="text-gray-300 hover:text-brand-orange" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>Testimonials</a></li>
-              <li><a href={getFooterLink("faq")} className="text-gray-300 hover:text-brand-orange" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>FAQ</a></li>
-              <li><a href={isHomePage ? "#" : "/#"} className="text-gray-300 hover:text-brand-orange" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>Blog</a></li>
+              <li><a href={getFooterLink("framework")} className="text-gray-300 hover:text-brand-orange" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>Framework</a></li>
+              <li><a href={getFooterLink("offer")} className="text-gray-300 hover:text-brand-orange" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>Angebot</a></li>
+              <li><a href={getFooterLink("pricing")} className="text-gray-300 hover:text-brand-orange" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>Preise</a></li>
+              <li><a href={getFooterLink("testimonials")} className="text-gray-300 hover:text-brand-orange" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>Referenzen</a></li>
             </ul>
           </div>
           

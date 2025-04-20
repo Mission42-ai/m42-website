@@ -27,10 +27,10 @@ const Header = () => {
         </div>
         
         <nav className="hidden md:flex gap-6 items-center">
-          <a href={getNavLink('angebot')} className="text-gray-700 hover:text-brand-orange transition-colors">Unser Angebot</a>
-          <a href={getNavLink('impact')} className="text-gray-700 hover:text-brand-orange transition-colors">KI Impact</a>
-          <a href={getNavLink('testimonials')} className="text-gray-700 hover:text-brand-orange transition-colors">Testimonials</a>
-          <a href={getNavLink('faq')} className="text-gray-700 hover:text-brand-orange transition-colors">FAQ</a>
+          <a href={getNavLink('framework')} className="text-gray-700 hover:text-brand-orange transition-colors">Framework</a>
+          <a href={getNavLink('offer')} className="text-gray-700 hover:text-brand-orange transition-colors">Angebot</a>
+          <a href={getNavLink('pricing')} className="text-gray-700 hover:text-brand-orange transition-colors">Preise</a>
+          <a href={getNavLink('testimonials')} className="text-gray-700 hover:text-brand-orange transition-colors">Referenzen</a>
         </nav>
         
         <Button className="bg-brand-orange hover:bg-brand-blue text-white shadow-sm transition-all">
