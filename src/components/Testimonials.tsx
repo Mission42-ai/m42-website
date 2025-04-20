@@ -48,21 +48,21 @@ const Testimonials = () => {
       title: "Gründer und Geschäftsführer",
       company: "Auto-Innovativ GmbH",
       content: "In meiner kurzen Zeit in der Community konnte ich bereits eine Vielzahl an praktischen Tools und Anwendungsfällen für KI kennenlernen. Der Austausch hat dazu geführt, dass ich viele neue Ideen für den Einsatz von KI identifizieren konnte. Mein persönliches Highlight war die Arbeit mit KI-Agenten.",
-      imagePath: "/customer-logos/bernd-mueller.jpg"
+      imagePath: "/testimonial-pictures/bernd-mueller.jpeg"
     },
     {
       name: "Jens Wemheuer",
       title: "Gründer und Geschäftsführer",
       company: "Infinitas GmbH",
       content: "Die inspirierenden Workshops haben uns gezeigt, wie wir KI ohne großen Aufwand in unsere Prozesse integrieren können. Das hat unsere Sicht auf zukünftige Projekte nachhaltig beeinflusst.",
-      imagePath: "/customer-logos/jens-wemheuer.jpg"
+      imagePath: "/testimonial-pictures/jens-wemheuer.jpeg"
     },
     {
       name: "Jessica Hutchinson",
       title: "Head of Retention",
       company: "Purelei GmbH",
       content: "Die Sessions in der Mission42 haben mir praktische Wege aufgezeigt, wie ich KI im Alltag nutzen kann, um produktiver zu sein. Die Inhalte und Sessions werden auf Basis des Community-Feedbacks kontinuierlich angepasst und liefern echten Mehrwert.",
-      imagePath: "/customer-logos/jessica-hutchinson.jpg"
+      imagePath: "/testimonial-pictures/jessica.png"
     }
   ];
 
