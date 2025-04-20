@@ -66,37 +66,41 @@ const Pricing = () => {
           {packages.map((pkg, index) => (
             <div
               key={index}
-              className={`rounded-lg p-8 ${
+              className={`rounded-lg p-8 flex flex-col h-full ${
                 pkg.isHighlighted
                   ? "bg-brand-blue text-white shadow-xl scale-105"
                   : "bg-gray-50"
               }`}
             >
-              <h3 className="text-2xl font-bold mb-2">{pkg.name}</h3>
-              <p className="text-sm mb-4 opacity-80">{pkg.ideal}</p>
-              <div className="text-3xl font-bold mb-6">
-                €{pkg.price},-
-                <span className="text-sm font-normal"> /Monat zzgl. MwSt.</span>
+              <div className="flex-grow">
+                <h3 className="text-2xl font-bold mb-2">{pkg.name}</h3>
+                <p className="text-sm mb-4 opacity-80">{pkg.ideal}</p>
+                <div className="text-3xl font-bold mb-6">
+                  €{pkg.price},-
+                  <span className="text-sm font-normal"> /Monat zzgl. MwSt.</span>
+                </div>
+                <ul className="space-y-4">
+                  {pkg.features.map((feature, i) => (
+                    <li key={i} className="flex items-start gap-2">
+                      <Check
+                        className={`h-5 w-5 ${pkg.isHighlighted ? "text-brand-orange" : "text-brand-blue"}`}
+                      />
+                      <span>{feature}</span>
+                    </li>
+                  ))}
+                </ul>
               </div>
-              <ul className="space-y-4 mb-8">
-                {pkg.features.map((feature, i) => (
-                  <li key={i} className="flex items-start gap-2">
-                    <Check
-                      className={`h-5 w-5 ${pkg.isHighlighted ? "text-brand-orange" : "text-brand-blue"}`}
-                    />
-                    <span>{feature}</span>
-                  </li>
-                ))}
-              </ul>
-              <Button
-                className={`w-full ${
-                  pkg.isHighlighted
-                    ? "bg-brand-orange hover:bg-brand-orange/90"
-                    : "bg-brand-blue hover:bg-brand-blue/90"
-                }`}
-              >
-                Jetzt Beratungsgespräch vereinbaren
-              </Button>
+              <div className="mt-8">
+                <Button
+                  className={`w-full ${
+                    pkg.isHighlighted
+                      ? "bg-brand-orange hover:bg-brand-orange/90"
+                      : "bg-brand-blue hover:bg-brand-blue/90"
+                  }`}
+                >
+                  Jetzt Beratungsgespräch vereinbaren
+                </Button>
+              </div>
             </div>
           ))}
         </div>
