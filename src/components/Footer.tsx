@@ -71,20 +71,20 @@ const Footer = () => {
           <div>
             <h3 className="font-bold mb-4">Links</h3>
             <ul className="space-y-3">
-              <li><a href={isHomePage ? "#" : "/#"} className="text-gray-300 hover:text-brand-orange">Über uns</a></li>
-              <li><a href={getFooterLink("angebot")} className="text-gray-300 hover:text-brand-orange">Unser Angebot</a></li>
-              <li><a href={getFooterLink("testimonials")} className="text-gray-300 hover:text-brand-orange">Testimonials</a></li>
-              <li><a href={getFooterLink("faq")} className="text-gray-300 hover:text-brand-orange">FAQ</a></li>
-              <li><a href={isHomePage ? "#" : "/#"} className="text-gray-300 hover:text-brand-orange">Blog</a></li>
+              <li><a href={isHomePage ? "#" : "/#"} className="text-gray-300 hover:text-brand-orange" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>Über uns</a></li>
+              <li><a href={getFooterLink("angebot")} className="text-gray-300 hover:text-brand-orange" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>Unser Angebot</a></li>
+              <li><a href={getFooterLink("testimonials")} className="text-gray-300 hover:text-brand-orange" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>Testimonials</a></li>
+              <li><a href={getFooterLink("faq")} className="text-gray-300 hover:text-brand-orange" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>FAQ</a></li>
+              <li><a href={isHomePage ? "#" : "/#"} className="text-gray-300 hover:text-brand-orange" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>Blog</a></li>
             </ul>
           </div>
           
           <div>
             <h3 className="font-bold mb-4">Rechtliches</h3>
             <ul className="space-y-3">
-              <li><Link to="/impressum" className="text-gray-300 hover:text-brand-orange">Impressum</Link></li>
-              <li><Link to="/datenschutz" className="text-gray-300 hover:text-brand-orange">Datenschutz</Link></li>
-              <li><Link to="/agb" className="text-gray-300 hover:text-brand-orange">AGB</Link></li>
+              <li><Link to="/impressum" className="text-gray-300 hover:text-brand-orange" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>Impressum</Link></li>
+              <li><Link to="/datenschutz" className="text-gray-300 hover:text-brand-orange" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>Datenschutz</Link></li>
+              <li><Link to="/agb" className="text-gray-300 hover:text-brand-orange" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>AGB</Link></li>
             </ul>
           </div>
         </div>
