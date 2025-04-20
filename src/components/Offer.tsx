@@ -62,11 +62,13 @@ const Offer = () => {
                 key={index}
                 className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow"
               >
-                <div className="flex items-start gap-4">
-                  <div className="mt-1">
-                    {benefit.icon}
+                <div className="flex flex-col items-center">
+                  <div className="mb-4">
+                    <div className="bg-gray-50 p-4 rounded-full">
+                      {React.cloneElement(benefit.icon as React.ReactElement, { className: "h-8 w-8 text-brand-orange" })}
+                    </div>
                   </div>
-                  <div>
+                  <div className="text-center">
                     <h3 className="font-semibold text-lg text-brand-blue mb-2">
                       {benefit.title}
                     </h3>
