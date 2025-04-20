@@ -8,7 +8,7 @@ const Letter = () => {
   return (
     <section className="py-16 md:py-24 px-4 bg-cover bg-center" style={{ backgroundImage: 'url("/background/orange.png")' }}>
       <div className="container mx-auto">
-        <div className="max-w-3xl mx-auto bg-gray-50 p-8 md:p-12 rounded-lg shadow-sm">
+        <div className="max-w-3xl mx-auto bg-gray-50 p-8 md:p-12 rounded-lg shadow-xl border border-gray-200 rotate-[0.5deg]">
           <div className="mb-6 text-right text-gray-500">
             <p>Aktualisiert: {date}</p>
           </div>
