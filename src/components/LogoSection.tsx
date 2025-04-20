@@ -16,7 +16,7 @@ const LogoSection = () => {
           {logos.map((logo, index) => (
             <div
               key={index}
-              className="h-20 w-48 flex items-center justify-center p-6"
+              className="h-28 w-56 flex items-center justify-center p-8"
             >
               <img
                 src={logo.path}
