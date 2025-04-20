@@ -20,7 +20,7 @@ const Footer = () => {
           <div>
             <div className="mb-4">
               <img
-                src="https://udvxxnqecndjrhldjqqy.supabase.co/storage/v1/object/public/assets//logo%20dark%20bg.png"
+                src={imagePaths.brand.footerLogo}
                 alt="Mission42 Logo"
                 className="h-8"
               />
