@@ -1,24 +1,29 @@
+
 import React from "react";
-import { Check } from "lucide-react";
+import { Check, Target, Lightbulb, Compass, Megaphone } from "lucide-react";
 
 const Offer = () => {
   const benefits = [
     {
+      icon: <Target className="h-5 w-5 text-brand-orange" />,
       title: "Durchbrüche durch fokussierte Umsetzung",
       description:
         'Echter Fortschritt entsteht im Tun. Statt endloser Planung setzen wir auf die Kraft konzentrierter Arbeitsphasen ("Deep Work"). In kurzer Zeit konkrete, messbare Ergebnisse zu erzielen, schafft nicht nur sofortigen Nutzen, sondern erzeugt entscheidendes Momentum und überwindet die natürliche Trägheit in Organisationen.',
     },
     {
+      icon: <Lightbulb className="h-5 w-5 text-brand-orange" />,
       title: "Nachhaltige Transformation durch interne Multiplikatoren",
       description:
         "Wahre Transformation kommt von innen. Langfristiger Erfolg mit KI hängt davon ab, das eigene Team zu befähigen. Der Aufbau interner Wissensmultiplikatoren, die sowohl das Geschäft als auch die KI-Werkzeuge verstehen, ist der Schlüssel zur Skalierung, zur Unabhängigkeit und zur Entwicklung einer lernenden Organisation.",
     },
     {
+      icon: <Compass className="h-5 w-5 text-brand-orange" />,
       title: "Wirkung durch strategische Ausrichtung",
       description:
         "Technologie muss der Strategie folgen, nicht umgekehrt. Nur wenn KI-Initiativen klar auf die Unternehmensziele einzahlen, Führungskräfte den Wandel vorleben und Prozesse angepasst werden, entfaltet KI ihr volles Potenzial. Aktives Change Management und klare Verantwortlichkeiten sind unerlässlich, um alle an Bord zu holen und Reibungsverluste zu minimieren.",
     },
     {
+      icon: <Megaphone className="h-5 w-5 text-brand-orange" />,
       title: "Beschleunigung durch kollektive Intelligenz",
       description:
         "Niemand muss das Rad neu erfinden. Lernen und Wachstum beschleunigen sich exponentiell, wenn Erfahrungen, bewährte Lösungen und Herausforderungen in einem vertrauensvollen Netzwerk geteilt werden. Der Zugang zu kollektiver Intelligenz und Peer-Support steigert den Erfolg jedes Einzelnen und der gesamten Organisation.",
@@ -59,7 +64,7 @@ const Offer = () => {
               >
                 <div className="flex items-start gap-4">
                   <div className="mt-1">
-                    <Check className="h-5 w-5 text-brand-orange" />
+                    {benefit.icon}
                   </div>
                   <div>
                     <h3 className="font-semibold text-lg text-brand-blue mb-2">
