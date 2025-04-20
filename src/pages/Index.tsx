@@ -23,8 +23,6 @@ const Index = () => {
       <LogoSection />
       <Letter />
       <Offer />
-      <Impact />
-      <TextWithImage />
       <Testimonials />
       <ProductPresentation />
       <Guarantee />

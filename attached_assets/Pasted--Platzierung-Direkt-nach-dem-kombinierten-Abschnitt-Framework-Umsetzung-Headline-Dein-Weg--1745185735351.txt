@@ -1,0 +1,43 @@
+(Platzierung: Direkt nach dem kombinierten Abschnitt "Framework & Umsetzung")
+
+(Headline)
+
+Dein Weg zur garantierten KI-Produktivität: Unsere Pakete
+(Kurze Einleitung - Bezug zur vorherigen Sektion)
+
+Alle vier Säulen unseres Ansatzes – von den Productivity Labs über die Ausbildung Deiner Champions und Executives bis zur Community und den Coachings – bündeln wir für Dich in drei maßgeschneiderten Paketen. Wähle den AI Productivity Accelerator, der am besten zu Deinen Zielen und Deiner Unternehmensgröße passt:
+
+(Vergleichstabelle der Pakete)
+
+(Design-Tipp: Weiterhin klar strukturierte Tabelle, evtl. "Professional" hervorheben. Icons zur Auflockerung.)
+
+Feature	KI-Champion Basic	KI-Champion Professional	KI-Enterprise Transformation
+Ideal für	Erste Schritte & kleine Teams	Umfassender Aufbau & mittlere Teams	Skalierte Transformation & große Teams
+Preis pro Monat	€ 990,- (zzgl. MwSt.)	€ 2.900,- (zzgl. MwSt.)	€ 4.900,- (zzgl. MwSt.)
+Plätze für KI-Champions/Executives	2	6	15
+Zugang Community Productivity Labs (2x wöchentl.)	✓	✓	✓
+Exklusive Productivity Labs für Dein Team	-	-	✓ (1x wöchentlich)
+Zugang zur Mission42 Community	✓ (für Teilnehmer)	✓ (für Teilnehmer)	✓ (für alle Mitarbeiter)
+Zugang zum monatl. Executive Briefing	✓	✓	✓
+Coach Check-in (15 Min)	✓ (monatlich)	✓ (14-täglich)	✓ (wöchentlich)
+EU AI Act Zertifizierung für Mitarbeiter	-	✓ (für alle Mitarbeiter)	✓ (für alle Mitarbeiter)
+Garantierte Produktivitätssteigerung*	mind. 10%	mind. 15%	mind. 15%
+&lt;button>Basic wählen&lt;/button>	&lt;button>Professional wählen&lt;/button>	&lt;button>Enterprise wählen&lt;/button>
+
+Export to Sheets
+(Text unter der Tabelle)
+
+Alle Pakete sind als Jahresprogramm mit bequemer monatlicher Zahlung konzipiert.
+
+* Wie funktioniert unsere Garantie? Wir stehen zu unserem Versprechen! Zu Beginn definieren wir gemeinsam messbare Ziele (KPIs) für ausgewählte Prozesse. Sollten wir diese Ziele wider Erwarten nicht innerhalb des vereinbarten Zeitraums erreichen, greift unsere Zufriedenheitsgarantie. [Empfehlung: Hier Link zur Detailseite/FAQ oder kurze Erklärung der Konsequenz einfügen].
+
+(Abschließender, wertverstärkender Text)
+
+Egal, für welches Paket Du Dich entscheidest: Du investierst in eine nachhaltige Transformation mit messbaren Ergebnissen, baust wertvolles internes Know-how auf und profitierst von der Sicherheit unseres Garantieversprechens und der Kraft unserer Community.
+
+Bereit, den nächsten Schritt zu gehen?
+
+Wähle Dein Paket oder vereinbare ein unverbindliches Strategiegespräch, um gemeinsam die beste Lösung für Dein Unternehmen zu finden.
+
+(CTA-Button)
+[Jetzt Strategiegespräch vereinbaren]

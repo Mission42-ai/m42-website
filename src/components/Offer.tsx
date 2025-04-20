@@ -1,4 +1,3 @@
-
 import React from "react";
 import { Check, Target, Lightbulb, Compass, Megaphone } from "lucide-react";
 
@@ -8,25 +7,25 @@ const Offer = () => {
       icon: <Target className="h-5 w-5 text-brand-orange" />,
       title: "Durchbrüche durch fokussierte Umsetzung",
       description:
-        'Echter Fortschritt entsteht im Tun. Statt endloser Planung setzen wir auf die Kraft konzentrierter Arbeitsphasen ("Deep Work"). In kurzer Zeit konkrete, messbare Ergebnisse zu erzielen, schafft nicht nur sofortigen Nutzen, sondern erzeugt entscheidendes Momentum und überwindet die natürliche Trägheit in Organisationen.',
+        "Wir glauben an die Kraft des Machens! Statt Dich in Theorie zu verlieren, konzentrieren wir uns auf sofortige, messbare Erfolge, die Dich und Dein Team motivieren. Deshalb setzt Du in unseren wöchentlichen Productivity Labs KI-Lösungen direkt praktisch um und siehst sofort Resultate für Dein Unternehmen.",
     },
     {
       icon: <Lightbulb className="h-5 w-5 text-brand-orange" />,
       title: "Nachhaltige Transformation durch interne Multiplikatoren",
       description:
-        "Wahre Transformation kommt von innen. Langfristiger Erfolg mit KI hängt davon ab, das eigene Team zu befähigen. Der Aufbau interner Wissensmultiplikatoren, die sowohl das Geschäft als auch die KI-Werkzeuge verstehen, ist der Schlüssel zur Skalierung, zur Unabhängigkeit und zur Entwicklung einer lernenden Organisation.",
+        "Nachhaltige KI-Transformation lebt von internem Know-how. Damit Du unabhängig von externen Experten wirst, bilden wir Deine Mitarbeiter in der KI-Champion Class zu zertifizierten Multiplikatoren aus. Sie lernen, KI-Tools souverän anzuwenden und das Wissen im Unternehmen zu verankern.",
     },
     {
       icon: <Compass className="h-5 w-5 text-brand-orange" />,
       title: "Wirkung durch strategische Ausrichtung",
       description:
-        "Technologie muss der Strategie folgen, nicht umgekehrt. Nur wenn KI-Initiativen klar auf die Unternehmensziele einzahlen, Führungskräfte den Wandel vorleben und Prozesse angepasst werden, entfaltet KI ihr volles Potenzial. Aktives Change Management und klare Verantwortlichkeiten sind unerlässlich, um alle an Bord zu holen und Reibungsverluste zu minimieren.",
+        "Technologie allein ist nicht alles. Damit KI wirklich wirkt, müssen Strategie, Führung und Abläufe Hand in Hand gehen. In der KI-Executive Class bilden wir Deine Führungskräfte aus, damit sie eine klare Vision entwickeln und ein effektives Operating System für die KI-Implementierung in Deinem Unternehmen etablieren können. Regelmäßige Coach Check-ins helfen Dir zusätzlich dabei, den Fokus zu halten und Deine Fortschritte konsequent an der Strategie auszurichten.",
     },
     {
       icon: <Megaphone className="h-5 w-5 text-brand-orange" />,
       title: "Beschleunigung durch kollektive Intelligenz",
       description:
-        "Niemand muss das Rad neu erfinden. Lernen und Wachstum beschleunigen sich exponentiell, wenn Erfahrungen, bewährte Lösungen und Herausforderungen in einem vertrauensvollen Netzwerk geteilt werden. Der Zugang zu kollektiver Intelligenz und Peer-Support steigert den Erfolg jedes Einzelnen und der gesamten Organisation.",
+        "Du musst nicht jeden Fehler selbst machen oder das Rad neu erfinden. Unsere exklusive Mission42 Community verstärkt Deinen Erfolg: Profitiere vom Austausch mit Gleichgesinnten, Experten-Support und einer wachsenden Bibliothek an Vorlagen und erprobten Best Practices.",
     },
   ];
 
@@ -65,7 +64,9 @@ const Offer = () => {
                 <div className="flex flex-col items-center">
                   <div className="mb-4">
                     <div className="bg-gray-50 p-4 rounded-full">
-                      {React.cloneElement(benefit.icon as React.ReactElement, { className: "h-8 w-8 text-brand-orange" })}
+                      {React.cloneElement(benefit.icon as React.ReactElement, {
+                        className: "h-8 w-8 text-brand-orange",
+                      })}
                     </div>
                   </div>
                   <div className="text-center">
