@@ -99,7 +99,7 @@ const Pricing = () => {
                         : "bg-brand-blue hover:bg-brand-blue/90"
                     }`}
                   >
-                    Jetzt Beratungsgespräch vereinbaren
+                    Beratungsgespräch vereinbaren
                   </Button>
                 </a>
               </div>
