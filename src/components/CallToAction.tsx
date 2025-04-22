@@ -17,7 +17,7 @@ const CallToAction = () => {
         </p>
 
         <a href="https://calendar.app.google/gzKyuKMMiJdvN1fz9" target="_blank" rel="noopener noreferrer">
-          <Button className="bg-brand-orange hover:bg-brand-blue text-white text-lg px-8 py-6 rounded-md shadow-lg transition-all">
+          <Button className="bg-brand-orange hover:bg-brand-blue text-white text-lg px-6 py-5 rounded-md shadow-lg transition-all w-full md:w-auto">
             Beratungsgespräch vereinbaren
           </Button>
         </a>
