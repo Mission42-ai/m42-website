@@ -26,8 +26,8 @@ const Header = () => {
         </div>
 
         <a href="https://calendar.app.google/gzKyuKMMiJdvN1fz9" target="_blank" rel="noopener noreferrer">
-          <Button className="hidden md:inline-flex bg-brand-orange hover:bg-brand-blue text-white shadow-sm transition-all">
-            Jetzt Beratungsgespräch vereinbaren
+          <Button className="hidden md:inline-flex bg-brand-orange hover:bg-brand-blue text-white shadow-sm transition-all whitespace-normal">
+            Jetzt Beratungsgespräch<br />vereinbaren
           </Button>
         </a>
       </div>

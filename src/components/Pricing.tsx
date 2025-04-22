@@ -62,13 +62,13 @@ const Pricing = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8 mb-12">
+        <div className="grid md:grid-cols-3 gap-8 mb-12 px-4 md:px-0">
           {packages.map((pkg, index) => (
             <div
               key={index}
-              className={`rounded-lg p-8 flex flex-col h-full ${
+              className={`rounded-lg p-6 md:p-8 flex flex-col h-full ${
                 pkg.isHighlighted
-                  ? "bg-brand-blue text-white shadow-xl scale-105"
+                  ? "bg-brand-blue text-white shadow-xl md:scale-105"
                   : "bg-gray-50"
               }`}
             >
