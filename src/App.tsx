@@ -8,13 +8,15 @@ import Impressum from "./pages/Impressum";
 import Datenschutz from "./pages/Datenschutz";
 import AGB from "./pages/AGB";
 import NotFound from "./pages/NotFound";
-import Meta from './components/Meta'; // Added import statement
+import Meta from './components/Meta';
+import SchemaOrg from './components/SchemaOrg';
 
 const queryClient = new QueryClient();
 
 const App = () => (
   <>
     <Meta />
+    <SchemaOrg />
     <QueryClientProvider client={queryClient}>
       <TooltipProvider>
         <Toaster />
