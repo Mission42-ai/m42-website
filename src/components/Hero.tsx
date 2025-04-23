@@ -11,7 +11,6 @@ const Hero = () => {
         alt="Unternehmer sieht KI-Dashboard von Mission42"
         className="absolute inset-0 w-full h-full object-cover -z-10"
         loading="eager"
-        fetchPriority="high"
       />
       <div className="container mx-auto text-center">
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-brand-blue mb-6 max-w-5xl mx-auto leading-tight">
