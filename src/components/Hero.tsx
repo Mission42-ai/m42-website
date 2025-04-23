@@ -3,13 +3,13 @@ import { Button } from "@/components/ui/button";
 
 const Hero = () => {
   return (
-    <section className="pt-32 pb-20 md:pt-52 md:pb-40 lg:pt-64 lg:pb-52 px-4 relative">
+    <section className="pt-32 pb-20 md:pt-52 md:pb-40 lg:pt-64 lg:pb-52 px-4 relative bg-transparent">
       <img
         src="/background/hero.webp"
         width={1920}
         height={900}
         alt="Unternehmer sieht KI-Dashboard von Mission42"
-        className="absolute inset-0 w-full h-full object-cover -z-10"
+        className="absolute inset-0 w-full h-full object-cover z-[-1]"
         loading="eager"
         style={{ objectPosition: 'center center' }}
       />
