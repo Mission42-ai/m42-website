@@ -4,9 +4,18 @@ import App from "./App";
 import "./index.css";
 
 const rootElement = document.getElementById("root")!;
-hydrateRoot(
-  rootElement,
-  <HelmetProvider>
-    <App />
-  </HelmetProvider>,
-);
+
+if (rootElement.hasChildNodes()) {
+  hydrateRoot(
+    rootElement,
+    <HelmetProvider>
+      <App />
+    </HelmetProvider>
+  );
+} else {
+  createRoot(rootElement).render(
+    <HelmetProvider>
+      <App />
+    </HelmetProvider>
+  );
+}
