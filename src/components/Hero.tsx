@@ -30,7 +30,17 @@ const Hero = () => {
             Beratungsgespräch vereinbaren
           </Button>
         </a>
-        <p className="text-sm text-gray-500 mt-6">
+        <div className="flex justify-center mt-6">
+          <div className="flex items-center gap-3 bg-emerald-100 border border-emerald-300 rounded-xl px-4 py-2 w-max">
+            <svg className="w-6 h-6 text-emerald-600" viewBox="0 0 20 20" fill="currentColor">
+              <path d="M10 2l2 5h5l-4 3.5 1.5 5L10 13l-4.5 2.5L7 10.5 3 7h5l2-5z" />
+            </svg>
+            <span className="text-sm font-semibold text-emerald-700">
+              100 % Use-Case-Garantie
+            </span>
+          </div>
+        </div>
+        <p className="text-sm text-gray-500 mt-4">
           *nur 100% legal (versprochen!)
         </p>
       </div>
