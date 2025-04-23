@@ -10,10 +10,6 @@ deploymentTarget = "static"
 publicDir = "dist"
 run = ["sh", "-c", "npm run start"]
 
-[[deployment.rewrites]]
-from = "/*"
-to = "/index.html"
-
 [[ports]]
 localPort = 5000
 externalPort = 5000
