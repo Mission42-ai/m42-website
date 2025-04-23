@@ -27,7 +27,7 @@ const Hero = () => {
           rel="noopener noreferrer"
         >
           <Button className="bg-brand-orange hover:bg-brand-blue text-white text-lg px-6 py-5 rounded-md shadow-lg transition-all w-full md:w-auto whitespace-normal md:whitespace-nowrap">
-            Beratungsgespräch vereinbaren
+            Beratungsgespräch buchen
           </Button>
         </a>
         <p className="text-sm text-gray-500 mt-4">
