@@ -1,21 +1,11 @@
-import { createRoot, hydrateRoot } from "react-dom/client";
-import { HelmetProvider } from "react-helmet-async";
-import App from "./App";
-import "./index.css";
 
-const rootElement = document.getElementById("root")!;
+import { createRoot } from 'react-dom/client';
+import { HelmetProvider } from 'react-helmet-async';
+import App from './App';
+import './index.css';
 
-if (rootElement.hasChildNodes()) {
-  hydrateRoot(
-    rootElement,
-    <HelmetProvider>
-      <App />
-    </HelmetProvider>
-  );
-} else {
-  createRoot(rootElement).render(
-    <HelmetProvider>
-      <App />
-    </HelmetProvider>
-  );
-}
+createRoot(document.getElementById("root")!).render(
+  <HelmetProvider>
+    <App />
+  </HelmetProvider>
+);
