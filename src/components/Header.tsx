@@ -20,6 +20,7 @@ const Header = () => {
             <img
               src={imagePaths.brand.logo}
               alt="Mission42 Logo"
+              loading="lazy"
               className="h-10 md:h-12 logo-transition mb-4"
             />
           </Link>
