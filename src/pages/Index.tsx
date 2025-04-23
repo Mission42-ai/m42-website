@@ -15,10 +15,11 @@ import FAQ from "@/components/FAQ";
 import CallToAction from "@/components/CallToAction";
 import Footer from "@/components/Footer";
 import Pricing from "@/components/Pricing"; // Added import for Pricing component
+import StickyCTA from "@/components/StickyCTA";
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen">
       <Header />
       <Hero />
       <LogoSection />
@@ -31,6 +32,7 @@ const Index = () => {
       <FAQ />
       <CallToAction />
       <Footer />
+      <StickyCTA />
     </div>
   );
 };
