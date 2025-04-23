@@ -19,13 +19,8 @@
       "/datenschutz",
       "/agb"
     ],
-    "puppeteerArgs": ["--no-sandbox"]
-  },
-  "reactSnap": {
     "inlineCss": true,
-    "puppeteerArgs": [
-      "--no-sandbox"
-    ]
+    "puppeteerArgs": ["--no-sandbox"]
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.0",

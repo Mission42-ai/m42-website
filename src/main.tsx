@@ -5,9 +5,14 @@ import App from './App';
 import './index.css';
 
 const rootElement = document.getElementById("root")!;
-const root = rootElement.hasChildNodes() 
+rootElement.hasChildNodes() 
   ? hydrateRoot(rootElement,
-  <HelmetProvider>
-    <App />
-  </HelmetProvider>
-);
+    <HelmetProvider>
+      <App />
+    </HelmetProvider>
+  )
+  : createRoot(rootElement).render(
+    <HelmetProvider>
+      <App />
+    </HelmetProvider>
+  );
