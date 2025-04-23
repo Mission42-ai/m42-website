@@ -5,10 +5,21 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build && react-snap",
     "build:dev": "vite build --mode development",
     "lint": "eslint .",
     "preview": "vite preview"
+  },
+  "reactSnap": {
+    "source": "dist",
+    "destination": "dist",
+    "include": [
+      "/",
+      "/impressum",
+      "/datenschutz",
+      "/agb"
+    ],
+    "puppeteerArgs": ["--no-sandbox"]
   },
   "reactSnap": {
     "inlineCss": true,
